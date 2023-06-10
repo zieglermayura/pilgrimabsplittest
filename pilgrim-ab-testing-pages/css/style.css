@@ -1,0 +1,71 @@
+/* Generelle stilarter */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header stilarter */
+  header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .logo {
+  text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin:10PX;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* SIDE 1 */
+  /* Banner stilarter */
+  .banner1 {
+    background-image: url(/side_1/img/proevdetpå_1.png);
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Juster efter behov */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* SIDE 2 */
+  .banner2 {
+    background-image: url(/side_2/img/sommerkollektion_2.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Juster efter behov */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-content {
+    background-color: rgba(255, 255, 255, 0); /* Juster gennemsigtigheden efter behov */
+    padding: 20px;
+    text-align: center;
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
